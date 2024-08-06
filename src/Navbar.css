@@ -1,0 +1,81 @@
+/* Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:  #212426;
+    border-radius: 20px;
+    color: #a1a1a1;
+    margin-top: 40px;
+  }
+
+  .header{
+    padding: 0;
+    margin: 0;
+    font-size: 3.5rem;
+    font-family: "Monoton";
+    letter-spacing: 0.5rem;
+    color: bisque;
+    -webkit-text-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+  text-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+  }
+
+  .nav span {
+    font-size: 3rem;
+    transform-origin: bottom;
+    display: inline-block;
+  }
+  .navbar-menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-link {
+    color: bisque;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: .75rem 1.5rem;
+    border-radius: 10px;
+    background-color:#1f2123;
+    -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+    box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+  }
+  
+  .navbar-link:hover {
+    background-color: bisque;
+    color:#1f2123 ;
+    transition: all .3s;
+  }
+  
+  .navbar-search {
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #000;
+    color: white;
+    outline: none;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .navbar-icon {
+    font-size: 24px; /* Adjust size as needed */
+  }
+  
+  .navbar-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
